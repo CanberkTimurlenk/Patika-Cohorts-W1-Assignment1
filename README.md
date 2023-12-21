@@ -13,14 +13,13 @@ Bonus: <br>
 
 # Getting Started
 
-Ensure you have .NET SDK on your computer
+Ensure that you have the .NET SDK installed on your computer.
 
 1. Clone the repository:
 
 ```bash
-https://github.com/CanberkTimurlenk/Patika-Akbank-Bootcamp-Cohorts-W1-HW1.git
+git clone https://github.com/CanberkTimurlenk/Patika-Akbank-Bootcamp-Cohorts-W1-HW1.git
 ```
-
 2. Navigate to the project folder
 ```bash
 cd Patika-Akbank-Bootcamp-Cohorts-W1-HW1
