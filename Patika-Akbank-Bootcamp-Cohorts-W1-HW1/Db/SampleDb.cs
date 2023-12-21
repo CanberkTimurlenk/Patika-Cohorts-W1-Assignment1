@@ -2,7 +2,8 @@
 
 namespace Patika_Akbank_NET_Bootcamp_Cohorts_Week_1_Homework_1.Db
 {
-    public static class SampleDb
+
+    public static class SampleDb // A static class to simulate a database
     {
         public static List<Product> Products { get; set; } = new List<Product>()
         {
@@ -14,6 +15,5 @@ namespace Patika_Akbank_NET_Bootcamp_Cohorts_Week_1_Homework_1.Db
         {
             new Category() { Id =1, Name = "Beverages" }
         };
-
     }
 }
