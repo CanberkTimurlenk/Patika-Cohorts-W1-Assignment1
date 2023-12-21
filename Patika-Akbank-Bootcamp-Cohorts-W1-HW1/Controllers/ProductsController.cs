@@ -64,6 +64,19 @@ namespace Patika_Akbank_NET_Bootcamp_Cohorts_Week_1_Homework_1.Controllers
             return NoContent();
         }
 
+        // delete product
+        [HttpDelete("{id}")]
+        public IActionResult DeleteProduct([FromRoute] int id)
+        {
+            var productToDelete = SampleDb.Products.FirstOrDefault(p => p.Id == id);
+
+            if (productToDelete == null)
+                return NotFound();
+
+            SampleDb.Products.Remove(productToDelete);
+            return NoContent();
+        }
+
         // bonus 
         [HttpGet]
         public IActionResult GetProducts([FromQuery] string? name, [FromQuery] string? orderby, [FromQuery] string? order)
