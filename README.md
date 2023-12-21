@@ -28,4 +28,11 @@ cd Patika-Akbank-Bootcamp-Cohorts-W1-HW1
 ```bash
 dotnet run
 ```
+<hr>
+
+# Endpoints
+
+<img width="888" alt="endpoints" src="https://github.com/CanberkTimurlenk/Patika-Akbank-Bootcamp-Cohorts-W1-HW1/assets/18058846/88f00511-d0e1-406e-901c-8763728d614e">
+
+
 
